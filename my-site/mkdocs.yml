@@ -2,6 +2,7 @@ site_name: ARCHIVE
 
 theme:
   name: material
+  logo: assets/logo.png
 
 plugins:
   - search
