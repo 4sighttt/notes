@@ -9,3 +9,6 @@ plugins:
 
 markdown_extensions:
   - nl2br
+
+extra_css:
+  - stylesheets/extra.css
