@@ -1,6 +1,6 @@
 4sighttt@gmail.com
 
-AI 시대의 교육은 무엇을 가르쳐야 하는가
+[AI 시대의 교육은 무엇을 가르쳐야 하는가](https://4sighttt.github.io/ARCHIVE/000_Writes/07_Essay/AI%20%EC%8B%9C%EB%8C%80%EC%9D%98%20%EA%B5%90%EC%9C%A1%EC%9D%80%20%EB%AC%B4%EC%97%87%EC%9D%84%20%EA%B0%80%EB%A5%B4%EC%B3%90%EC%95%BC%20%ED%95%98%EB%8A%94%EA%B0%80/)
 AI 환각은 개소리인가
 AI는 산업기술이 아니라 사회구조를 재편하는 기술이다
 AI에 익숙해질수록 인간은 어떤 존재가 되어 가는가
