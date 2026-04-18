@@ -21,11 +21,7 @@ theme:
 plugins:
   - search
   - awesome-pages
-  - blogging:
-      dirs:
-        - 000_Writings/07_Essay
-      locale: ko_KR
-      
+
 markdown_extensions:
   - nl2br
 
