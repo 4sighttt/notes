@@ -34,4 +34,3 @@ extra_css:
 
 nav:
   - Home: index.md
-  - Blog: blog.md
