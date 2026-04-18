@@ -22,6 +22,7 @@
 [세계는 상태가 아니라 긴장이다](https://4sighttt.github.io/ARCHIVE/000_Writes/07_Essay/%EC%84%B8%EA%B3%84%EB%8A%94%20%EC%83%81%ED%83%9C%EA%B0%80%20%EC%95%84%EB%8B%88%EB%9D%BC%20%EA%B8%B4%EC%9E%A5%EC%9D%B4%EB%8B%A4/)  
 [소멸의 성숙](https://4sighttt.github.io/ARCHIVE/000_Writes/07_Essay/%EC%86%8C%EB%A9%B8%EC%9D%98%20%EC%84%B1%EC%88%99/)  
 [악은 왜 여전히 번성하는가](https://4sighttt.github.io/ARCHIVE/000_Writes/07_Essay/%EC%95%85%EC%9D%80%20%EC%99%9C%20%EC%97%AC%EC%A0%84%ED%9E%88%20%EB%B2%88%EC%84%B1%ED%95%98%EB%8A%94%EA%B0%80/)  
+[어떤 AI가 깨어날 것인가](https://4sighttt.github.io/ARCHIVE/000_Writes/07_Essay/%EC%96%B4%EB%96%A4%20AI%EA%B0%80%20%EA%B9%A8%EC%96%B4%EB%82%A0%20%EA%B2%83%EC%9D%B8%EA%B0%80/)  
 [우리는 왜 AI에게 "답"이 아니라 "논쟁"을 요구해야 하는가](https://4sighttt.github.io/ARCHIVE/000_Writes/07_Essay/%EC%9A%B0%EB%A6%AC%EB%8A%94%20%EC%99%9C%20AI%EC%97%90%EA%B2%8C%20%22%EB%8B%B5%22%EC%9D%B4%20%EC%95%84%EB%8B%88%EB%9D%BC%20%22%EB%85%BC%EC%9F%81%22%EC%9D%84%20%EC%9A%94%EA%B5%AC%ED%95%B4%EC%95%BC%20%ED%95%98%EB%8A%94%EA%B0%80/)  
 [원자가 대부분 공간인데 왜 물질처럼 느껴지는가?](https://4sighttt.github.io/ARCHIVE/000_Writes/07_Essay/%EC%9B%90%EC%9E%90%EA%B0%80%20%EB%8C%80%EB%B6%80%EB%B6%84%20%EA%B3%B5%EA%B0%84%EC%9D%B8%EB%8D%B0%20%EC%99%9C%20%EB%AC%BC%EC%A7%88%EC%B2%98%EB%9F%BC%20%EB%8A%90%EA%BB%B4%EC%A7%80%EB%8A%94%EA%B0%80%3F/)  
 [유토피아](https://4sighttt.github.io/ARCHIVE/000_Writes/07_Essay/%EC%9C%A0%ED%86%A0%ED%94%BC%EC%95%84/)  
