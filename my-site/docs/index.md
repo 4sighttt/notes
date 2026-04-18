@@ -1,5 +1,3 @@
-4sighttt@gmail.com
-
 [AI 시대의 교육은 무엇을 가르쳐야 하는가](https://4sighttt.github.io/ARCHIVE/000_Writes/07_Essay/AI%20%EC%8B%9C%EB%8C%80%EC%9D%98%20%EA%B5%90%EC%9C%A1%EC%9D%80%20%EB%AC%B4%EC%97%87%EC%9D%84%20%EA%B0%80%EB%A5%B4%EC%B3%90%EC%95%BC%20%ED%95%98%EB%8A%94%EA%B0%80/)  
 [AI 환각은 개소리인가](https://4sighttt.github.io/ARCHIVE/000_Writes/07_Essay/AI%20%ED%99%98%EA%B0%81%EC%9D%80%20%EA%B0%9C%EC%86%8C%EB%A6%AC%EC%9D%B8%EA%B0%80/)  
 [AI는 산업기술이 아니라 사회구조를 재편하는 기술이다](https://4sighttt.github.io/ARCHIVE/000_Writes/07_Essay/AI%EB%8A%94%20%EC%82%B0%EC%97%85%EA%B8%B0%EC%88%A0%EC%9D%B4%20%EC%95%84%EB%8B%88%EB%9D%BC%20%EC%82%AC%ED%9A%8C%EA%B5%AC%EC%A1%B0%EB%A5%BC%20%EC%9E%AC%ED%8E%B8%ED%95%98%EB%8A%94%20%EA%B8%B0%EC%88%A0%EC%9D%B4%EB%8B%A4/)  
