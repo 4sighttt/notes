@@ -22,6 +22,8 @@ plugins:
   - search
   - awesome-pages
   - blogging
+      dirs:
+        - 000_Writings/07_Essay
 
 markdown_extensions:
   - nl2br
