@@ -237,15 +237,15 @@ body,
 }
 
 /* 홈 카드 링크를 일반 텍스트처럼 보이도록 색상/스타일 제거 */
-.home-card {
+.md-typeset a.home-card,
+.md-typeset a.home-card:visited,
+.md-typeset a.home-card:hover,
+.md-typeset a.home-card:active {
   color: var(--archive-text) !important;
   text-decoration: none !important;
 }
 
-.home-card:visited {
+/* 홈 카드 제목도 링크색 상속 말고 일반 글자색으로 고정 */
+.home-card-title {
   color: var(--archive-text) !important;
-}
-
-.home-card:hover {
-  color: var(--archive-text) !important;   /* ← 이거 수정 */
 }
