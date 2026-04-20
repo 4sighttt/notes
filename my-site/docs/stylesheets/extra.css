@@ -231,6 +231,18 @@ body,
   border: 1px solid rgba(255, 240, 210, 0.06);
 }
 
+/* 홈 카드 링크 색상 기본 파란색 덮어쓰기 */
+.home-card {
+  color: var(--archive-text) !important;
+}
+
+.home-card:visited {
+  color: var(--archive-text) !important;
+}
+
+.home-card:hover {
+  color: var(--archive-text-strong) !important;
+}
 /* 라이트 모드에서 코드 블록 경계 */
 [data-md-color-scheme="default"] .md-typeset pre > code {
   border: 1px solid rgba(80, 60, 30, 0.06);
