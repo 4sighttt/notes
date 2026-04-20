@@ -52,6 +52,11 @@ hide:
 
 <div class="home-card-grid">
 
+<a href="https://4sighttt.github.io/ARCHIVE/000_Writings/08_Nietzsche/%EC%A4%91%EB%A0%A5%EC%9D%98%20%EC%A0%95%EC%8B%A0%EC%9D%84%20%EB%84%98%EC%96%B4%EC%84%9C%3A%20%EB%86%8D%EB%8B%B4%EC%9C%BC%EB%A1%9C%EC%84%9C%EC%9D%98%20%EC%B2%A0%ED%95%99%EC%97%90%20%EA%B4%80%ED%95%98%EC%97%AC/" class="home-card">
+  <div class="home-card-title">중력의 정신을 넘어서: 농담으로서의 철학에 관하여</div>
+</a>
+
+
 <a href="https://4sighttt.github.io/ARCHIVE/000_Writings/07_Essay/%ED%96%89%EB%8F%99%EA%B3%BC%20%EC%9D%98%EC%9A%95/" class="home-card">
   <div class="home-card-title">행동과 의욕</div>
 </a>
