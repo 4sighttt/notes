@@ -40,7 +40,7 @@
 [data-md-color-scheme="default"] {
   --md-default-bg-color: #eadfc6;
   --archive-bg: #eadfc6;
-  --archive-bg-soft: #efe6d1;
+  --archive-bg-soft: #bdb39f;
   --archive-card-bg: #bdb39f; /* ← 이거 추가 (조금 더 진한 색) */
   --archive-text: #2f2a22;
   --archive-text-strong: #1f1a12;
