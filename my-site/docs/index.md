@@ -5,11 +5,11 @@ hide:
 
 <div class="grid cards" markdown>
 
--   __거짓말, 지독한 거짓말 그리고 산타클로스__
-[](https://4sighttt.github.io/ARCHIVE/000_Writings/07_Essay/%EA%B1%B0%EC%A7%93%EB%A7%90%2C%20%EC%A7%80%EB%8F%85%ED%95%9C%20%EA%B1%B0%EC%A7%93%EB%A7%90%20%EA%B7%B8%EB%A6%AC%EA%B3%A0%20%EC%82%B0%ED%83%80%ED%81%B4%EB%A1%9C%EC%8A%A4/)
+-   __[거짓말, 지독한 거짓말 그리고 산타클로스](https://4sighttt.github.io/ARCHIVE/000_Writings/07_Essay/%EA%B1%B0%EC%A7%93%EB%A7%90%2C%20%EC%A7%80%EB%8F%85%ED%95%9C%20%EA%B1%B0%EC%A7%93%EB%A7%90%20%EA%B7%B8%EB%A6%AC%EA%B3%A0%20%EC%82%B0%ED%83%80%ED%81%B4%EB%A1%9C%EC%8A%A4/)__
 
--   __피해자조차 결코 순수하지 않다는 인간의 복잡성__
-[](https://4sighttt.github.io/ARCHIVE/000_Writings/07_Essay/%ED%94%BC%ED%95%B4%EC%9E%90%EC%A1%B0%EC%B0%A8%20%EA%B2%B0%EC%BD%94%20%EC%88%9C%EC%88%98%ED%95%98%EC%A7%80%20%EC%95%8A%EB%8B%A4%EB%8A%94%20%EC%9D%B8%EA%B0%84%EC%9D%98%20%EB%B3%B5%EC%9E%A1%EC%84%B1/)
+
+-   __[피해자조차 결코 순수하지 않다는 인간의 복잡성](https://4sighttt.github.io/ARCHIVE/000_Writings/07_Essay/%ED%94%BC%ED%95%B4%EC%9E%90%EC%A1%B0%EC%B0%A8%20%EA%B2%B0%EC%BD%94%20%EC%88%9C%EC%88%98%ED%95%98%EC%A7%80%20%EC%95%8A%EB%8B%A4%EB%8A%94%20%EC%9D%B8%EA%B0%84%EC%9D%98%20%EB%B3%B5%EC%9E%A1%EC%84%B1/)
+__
 
 -   __관찰되는 순간, 순수성은 증명 불가능하다__
 [](https://4sighttt.github.io/ARCHIVE/000_Writings/07_Essay/%EA%B4%80%EC%B0%B0%EB%90%98%EB%8A%94%20%EC%88%9C%EA%B0%84%2C%20%EC%88%9C%EC%88%98%EC%84%B1%EC%9D%80%20%EC%A6%9D%EB%AA%85%20%EB%B6%88%EA%B0%80%EB%8A%A5%ED%95%98%EB%8B%A4/)
