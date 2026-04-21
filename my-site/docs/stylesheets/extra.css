@@ -288,13 +288,6 @@ body,
 
 }
 
-/* 사이드바 카드 색 (라이트 모드만) */
-[data-md-color-scheme="default"] .md-sidebar,
-[data-md-color-scheme="default"] .md-nav,
-[data-md-color-scheme="default"] .md-content {
-  background-color: #f4ecd8 !important;
-}
-
 /* TOC 강조 (라이트 모드용 색 따로) */
 [data-md-color-scheme="default"] .md-nav__link--active {
   color: #b8860b !important;
