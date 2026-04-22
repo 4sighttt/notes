@@ -52,6 +52,10 @@ hide:
 
 <div class="home-card-grid">
 
+<a href="https://4sighttt.github.io/ARCHIVE/000_Writings/07_Essay/%EC%B6%9C%EA%B5%AC%20%EC%9E%88%EB%8A%94%20%EB%8B%AB%ED%9E%8C%20%EB%B0%A9/" class="home-card">
+  <div class="home-card-title">출구 있는 닫힌 방</div>
+</a>
+
 <a href="https://4sighttt.github.io/ARCHIVE/000_Writings/07_Essay/%EC%A4%91%EB%A6%BD%EC%9D%98%20%EC%96%BC%EA%B5%B4/" class="home-card">
   <div class="home-card-title">중립의 얼굴</div>
 </a>
