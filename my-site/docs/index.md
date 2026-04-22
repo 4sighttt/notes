@@ -52,6 +52,10 @@ hide:
 
 <div class="home-card-grid">
 
+<a href="https://4sighttt.github.io/ARCHIVE/000_Writings/07_Essay/%EC%9D%98%EC%8B%9D%EC%9D%80%20%EC%96%B4%EB%96%BB%EA%B2%8C%20%EC%A1%B0%EC%A7%81%EB%90%98%EC%96%B4%20%EC%9E%88%EB%8A%94%EA%B0%80/" class="home-card">
+  <div class="home-card-title">의식은 어떻게 조직되어 있는가</div>
+</a>
+
 <a href="https://4sighttt.github.io/ARCHIVE/000_Writings/07_Essay/%EC%A0%91%ED%9E%98%EC%9C%BC%EB%A1%9C%EC%84%9C%EC%9D%98%20%EC%A3%BC%EA%B4%80%EC%84%B1%20%E2%80%94%20%EC%9D%98%EC%8B%9D%EC%9D%80%20%EB%AC%B4%EC%97%87%EC%9D%B4%20%EC%95%84%EB%8B%88%EB%9D%BC%20%EC%96%B4%EB%96%BB%EA%B2%8C%EC%9D%98%20%EB%AC%B8%EC%A0%9C%EB%8B%A4/" class="home-card">
   <div class="home-card-title">접힘으로서의 주관성 — 의식은 무엇이 아니라 어떻게의 문제다</div>
 </a>
