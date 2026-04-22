@@ -26,9 +26,11 @@ markdown_extensions:
   - nl2br
   - attr_list
   - md_in_html
+  - footnotes
   - pymdownx.arithmatex:
       generic: true
 
+  
 extra_css:
   - stylesheets/extra.css
 
