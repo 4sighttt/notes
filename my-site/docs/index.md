@@ -165,7 +165,7 @@ hide:
   <div class="home-card-title">비참의 진단에서 계시의 독점으로</div>
 </a>
 
-<a href="https://4sighttt.github.io/ARCHIVE/000_Writings/09_Poem/%ED%83%9C%EC%96%91%EC%9D%98%20%EB%AC%B4%EA%B2%8C%20(%EB%AB%BC%EB%A5%B4%EC%86%8C)/" class="home-card">
+<a href="https://4sighttt.github.io/ARCHIVE/000_Writings/09_Poem/%ED%83%9C%EC%96%91%EC%9D%98%20%EB%AC%B4%EA%B2%8C%20%20%28%EB%AB%BC%EB%A5%B4%EC%86%8C%29/" class="home-card">
   <div class="home-card-title">태양의 무게 (뫼르소)</div>
 </a>
 
