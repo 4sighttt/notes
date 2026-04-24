@@ -52,6 +52,10 @@ hide:
 
 <div class="home-card-grid">
 
+<a href="https://4sighttt.github.io/ARCHIVE/000_Writings/07_Essay/%EB%90%98%EB%8F%8C%EC%95%84%20%EC%9E%91%EC%9A%A9%ED%95%98%EB%8A%94%20%EA%B2%B0%EA%B3%BC/" class="home-card">
+  <div class="home-card-title">되돌아 작용하는 결과</div>
+</a>
+
 <a href="https://4sighttt.github.io/ARCHIVE/000_Writings/07_Essay/%EC%B0%A8%EC%9D%B4%EB%A5%BC%20%EA%B2%AC%EB%94%94%EB%8A%94%20%EB%B3%B4%ED%8E%B8%EC%84%B1/" class="home-card">
   <div class="home-card-title">차이를 견디는 보편성</div>
 </a>
