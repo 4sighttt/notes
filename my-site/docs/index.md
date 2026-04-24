@@ -52,6 +52,10 @@ hide:
 
 <div class="home-card-grid">
 
+<a href="https://4sighttt.github.io/ARCHIVE/000_Writings/07_Essay/%EC%96%B8%EC%96%B4%EB%8A%94%20%EC%83%9D%EA%B0%81%EC%9D%B4%20%EC%84%B8%EA%B3%84%EC%97%90%20%EB%8B%BF%EB%8A%94%20%EA%B0%81%EB%8F%84%EB%8B%A4/" class="home-card">
+  <div class="home-card-title">언어는 생각이 세계에 닿는 각도다</div>
+</a>
+
 <a href="https://4sighttt.github.io/ARCHIVE/000_Writings/07_Essay/%EB%90%98%EB%8F%8C%EC%95%84%20%EC%9E%91%EC%9A%A9%ED%95%98%EB%8A%94%20%EA%B2%B0%EA%B3%BC/" class="home-card">
   <div class="home-card-title">되돌아 작용하는 결과</div>
 </a>
