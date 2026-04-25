@@ -52,6 +52,10 @@ hide:
 
 <div class="home-card-grid">
 
+<a href="https://4sighttt.github.io/ARCHIVE/000_Writings/07_Essay/%ED%9D%AC%EB%A7%9D%EC%9D%B4%EB%9D%BC%EB%8A%94%20%EB%AF%B8%EB%81%BC%2C%20%EC%A0%84%EB%A7%9D%EC%9D%B4%EB%9D%BC%EB%8A%94%20%EA%B8%B4%EC%9E%A5/" class="home-card">
+  <div class="home-card-title">희망이라는 미끼, 전망이라는 긴장</div>
+</a>
+
 <a href="https://4sighttt.github.io/ARCHIVE/000_Writings/07_Essay/%ED%8E%B8%EC%9D%98%EC%A0%90%20%EB%B6%88%EB%B9%9B%20%EC%95%84%EB%9E%98%EC%97%90%EC%84%9C/" class="home-card">
   <div class="home-card-title">편의점 불빛 아래에서</div>
 </a>
