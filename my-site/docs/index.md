@@ -52,6 +52,10 @@ hide:
 
 <div class="home-card-grid">
 
+<a href="https://4sighttt.github.io/ARCHIVE/000_Writings/07_Essay/%ED%8E%B8%EC%9D%98%EC%A0%90%20%EB%B6%88%EB%B9%9B%20%EC%95%84%EB%9E%98%EC%97%90%EC%84%9C/" class="home-card">
+  <div class="home-card-title">편의점 불빛 아래에서</div>
+</a>
+
 <a href="https://4sighttt.github.io/ARCHIVE/000_Writings/07_Essay/%EC%96%B8%EC%96%B4%EB%8A%94%20%EC%83%9D%EA%B0%81%EC%9D%B4%20%EC%84%B8%EA%B3%84%EC%97%90%20%EB%8B%BF%EB%8A%94%20%EA%B0%81%EB%8F%84%EB%8B%A4/" class="home-card">
   <div class="home-card-title">언어는 생각이 세계에 닿는 각도다</div>
 </a>
