@@ -52,6 +52,10 @@ hide:
 
 <div class="home-card-grid">
 
+<a href="https://4sighttt.github.io/ARCHIVE/000_Writings/07_Essay/%ED%9D%94%EB%93%A4%EB%A6%BC%EC%9D%80%20%EB%88%84%EA%B5%AC%EC%9D%98%20%EC%9D%B4%EB%A6%84%EC%9C%BC%EB%A1%9C%20%EB%B9%84%EC%A0%95%EC%83%81%EC%9D%B4%20%EB%90%98%EB%8A%94%EA%B0%80/" class="home-card">
+  <div class="home-card-title">흔들림은 누구의 이름으로 비정상이 되는가</div>
+</a>
+
 <a href="https://4sighttt.github.io/ARCHIVE/000_Writings/07_Essay/%EC%A0%84%EC%B2%B4%EB%9D%BC%EB%8A%94%20%EB%B0%A9%2C%20%EB%B6%80%EB%B6%84%EC%9D%B4%EB%9D%BC%EB%8A%94%20%EB%B9%9B/" class="home-card">
   <div class="home-card-title">전체라는 방, 부분이라는 빛</div>
 </a>
