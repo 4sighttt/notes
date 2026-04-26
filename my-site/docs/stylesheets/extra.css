@@ -330,3 +330,32 @@ body,
 .md-sidebar--secondary .md-sidebar__scrollwrap {
   scroll-padding-top: 6.5rem;
 }
+
+/* =========================
+   다크 모드 TOC/사이드바 활성 강조 보정
+   - 라이트 모드와 별도로 다크 모드에서 우측 TOC 활성 표시를 명시적으로 지정
+   - 우측 TOC의 왼쪽 바는 우측 목차에만 적용
+========================= */
+
+/* 다크 모드: 좌측 사이드바 현재 문서 */
+[data-md-color-scheme="slate"] .md-sidebar--primary .md-nav__link--active {
+  color: #f4ead5 !important;
+  font-weight: 700 !important;
+}
+
+/* 다크 모드: 우측 TOC 현재 위치 */
+[data-md-color-scheme="slate"] .md-sidebar--secondary .md-nav__link--active {
+  color: #ffcc66 !important;
+  font-weight: 700 !important;
+}
+
+/* 다크 모드: 우측 TOC 현재 위치 왼쪽 바 */
+[data-md-color-scheme="slate"] .md-sidebar--secondary .md-nav__link--active::before {
+  background: #ffcc66 !important;
+}
+
+/* 다크 모드: 우측 TOC 일반 링크는 기존 본문색 유지 */
+[data-md-color-scheme="slate"] .md-sidebar--secondary .md-nav__link:not(.md-nav__link--active) {
+  color: var(--archive-text) !important;
+  font-weight: 400 !important;
+}
