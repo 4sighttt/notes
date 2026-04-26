@@ -52,6 +52,10 @@ hide:
 
 <div class="home-card-grid">
 
+<a href="https://4sighttt.github.io/ARCHIVE/000_Writings/07_Essay/%EC%A3%BD%EC%9D%8C%EC%9D%80%20%EC%82%B6%EC%9D%98%20%EC%9D%98%EB%AF%B8%EB%A5%BC%20%EB%A7%8C%EB%93%A4%EC%96%B4%EC%A3%BC%EC%A7%80%20%EC%95%8A%EB%8A%94%EB%8B%A4/" class="home-card">
+  <div class="home-card-title">죽음은 삶의 의미를 만들어주지 않는다</div>
+</a>
+
 <a href="https://4sighttt.github.io/ARCHIVE/000_Writings/07_Essay/%EC%A3%BD%EC%9D%8C%EC%9D%80%20%EC%9B%90%EC%9D%B8%EC%9D%B4%20%EC%95%84%EB%8B%88%EB%9D%BC%20%EC%A1%B0%EB%AA%85%EC%9D%B4%EB%8B%A4/" class="home-card">
   <div class="home-card-title">죽음은 원인이 아니라 조명이다</div>
 </a>
