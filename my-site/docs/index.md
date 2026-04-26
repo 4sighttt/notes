@@ -52,6 +52,10 @@ hide:
 
 <div class="home-card-grid">
 
+<a href="https://4sighttt.github.io/ARCHIVE/000_Writings/07_Essay/%EC%A3%BD%EC%9D%8C%EC%9D%80%20%EC%9B%90%EC%9D%B8%EC%9D%B4%20%EC%95%84%EB%8B%88%EB%9D%BC%20%EC%A1%B0%EB%AA%85%EC%9D%B4%EB%8B%A4/" class="home-card">
+  <div class="home-card-title">죽음은 원인이 아니라 조명이다</div>
+</a>
+
 <a href="https://4sighttt.github.io/ARCHIVE/000_Writings/07_Essay/%EC%9D%B8%EA%B0%84%20%EC%A4%91%EC%8B%AC%20%EC%9D%B4%ED%9B%84%EC%9D%98%20%ED%8F%AC%EC%8A%A4%ED%8A%B8%ED%9C%B4%EB%A8%B8%EB%8B%88%EC%A6%98/" class="home-card">
   <div class="home-card-title">인간 중심 이후의 포스트휴머니즘</div>
 </a>
