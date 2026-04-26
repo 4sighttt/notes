@@ -52,6 +52,10 @@ hide:
 
 <div class="home-card-grid">
 
+<a href="https://4sighttt.github.io/ARCHIVE/000_Writings/07_Essay/%EC%B1%85%EC%9E%84%EC%A7%80%EB%8A%94%20%EC%9D%B8%EA%B2%A9%20%EC%97%86%EB%8A%94%20%ED%96%89%EC%9C%84%EC%84%B1/" class="home-card">
+  <div class="home-card-title">책임지는 인격 없는 행위성</div>
+</a>
+
 <a href="https://4sighttt.github.io/ARCHIVE/000_Writings/07_Essay/%EC%A3%BD%EC%9D%8C%EC%9D%80%20%EC%82%B6%EC%9D%98%20%EC%9D%98%EB%AF%B8%EB%A5%BC%20%EB%A7%8C%EB%93%A4%EC%96%B4%EC%A3%BC%EC%A7%80%20%EC%95%8A%EB%8A%94%EB%8B%A4/" class="home-card">
   <div class="home-card-title">죽음은 삶의 의미를 만들어주지 않는다</div>
 </a>
