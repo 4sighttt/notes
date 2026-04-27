@@ -44,7 +44,7 @@
       }
     }
 
-    const activeHash = "#" + CSS.escape(activeHeading.id);
+    const activeHash = "#" + activeHeading.id;
 
     secondary
       .querySelectorAll("." + ACTIVE_CLASS)
