@@ -1,5 +1,6 @@
 site_name: ARCHIVE
 site_url: https://4sighttt.github.io/ARCHIVE/
+use_directory_urls: false
 
 theme:
   name: material
