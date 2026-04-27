@@ -52,6 +52,10 @@ hide:
 
 <div class="home-card-grid">
 
+<a href="https://4sighttt.github.io/ARCHIVE/000_Writings/07_Essay/%EC%96%B4%EB%A6%AC%EC%84%9D%EC%9D%8C%EC%9D%84%20%EB%84%98%EC%96%B4%EC%84%9C%EB%8A%94%20%EB%B2%95/" class="home-card">
+  <div class="home-card-title">어리석음을 넘어서는 법</div>
+</a>
+
 <a href="https://4sighttt.github.io/ARCHIVE/000_Writings/07_Essay/%EC%A7%80%EC%8B%9D%EC%B2%98%EB%9F%BC%20%EB%B3%B4%EC%9D%B4%EB%8A%94%20%EA%B2%83%EB%93%A4%3A%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EC%9D%B4%20%EB%B0%B0%EC%B9%98%ED%95%9C%20%EC%95%8E%EC%9D%98%20%EC%A1%B0%EA%B1%B4/" class="home-card">
   <div class="home-card-title">지식처럼 보이는 것들: 알고리즘이 배치한 앎의 조건</div>
 </a>
