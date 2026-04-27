@@ -365,61 +365,62 @@ body,
 }
 
 /* =========================================================
-   Final Unified Sidebar / TOC Active-State Fix
+   Strict Sidebar / TOC Consistency Fix
    ---------------------------------------------------------
-   Purpose
-   1. Use one visual language for left sidebar and right TOC.
-   2. Highlight only the current page on the left.
-   3. Highlight only the current heading on the right.
-   4. Weakly highlight only the parent of the current heading.
-   5. Neutralize "passed" TOC items so visited headings do not remain bold.
-   6. Keep light and dark mode behavior consistent.
+   This block must stay at the very end of extra.css.
 
-   Important
-   - Keep this block at the very end of extra.css.
-   - This block intentionally overrides previous sidebar/TOC rules.
+   Goals:
+   1. Left sidebar and right TOC use the same active style.
+   2. "Passed" TOC items are fully neutralized in both light/dark mode.
+   3. Only the real current item gets the strong highlight.
+   4. Parent items are not force-highlighted, because CSS-only parent
+      detection can be inconsistent across Material versions and browsers.
+   5. Existing broad .md-nav__link rules are overridden with higher specificity.
 ========================================================= */
 
 /* Shared active colors */
+html[data-md-color-scheme="default"],
 [data-md-color-scheme="default"] {
   --archive-active: #8f6500;
   --archive-active-bg: rgba(184, 134, 11, 0.16);
-  --archive-active-parent-bg: rgba(184, 134, 11, 0.08);
 }
 
+html[data-md-color-scheme="slate"],
 [data-md-color-scheme="slate"] {
   --archive-active: #ffcc66;
   --archive-active-bg: rgba(255, 204, 102, 0.14);
-  --archive-active-parent-bg: rgba(255, 204, 102, 0.07);
 }
 
 /* ---------------------------------------------------------
-   1. Baseline reset for both navigation areas
+   1. Universal baseline for all sidebar navigation links
 --------------------------------------------------------- */
 
-.md-sidebar--primary .md-nav__link,
-.md-sidebar--secondary .md-nav__link,
-.md-nav--secondary .md-nav__link,
-[data-md-component="toc"] .md-nav__link {
+html body .md-sidebar .md-nav__link,
+html body .md-nav--secondary .md-nav__link,
+html body [data-md-component="toc"] .md-nav__link {
   color: var(--archive-text) !important;
   font-weight: 400 !important;
   border-left: 4px solid transparent !important;
   padding-left: 0.65rem !important;
   margin-left: 0 !important;
-  border-radius: 0.2rem !important;
   background: transparent !important;
   box-shadow: none !important;
+  border-radius: 0.2rem !important;
+  text-decoration: none !important;
 }
 
 /* ---------------------------------------------------------
-   2. Neutralize passed TOC items
-   Material can mark already-scrolled headings with
-   md-nav__link--passed. These must NOT stay bold.
+   2. Neutralize every "passed" state explicitly
+   This fixes the dark-mode issue where all already-read TOC
+   headings remain bold.
 --------------------------------------------------------- */
 
-.md-sidebar--secondary .md-nav__link--passed,
-.md-nav--secondary .md-nav__link--passed,
-[data-md-component="toc"] .md-nav__link--passed {
+html body .md-sidebar--secondary .md-nav__link--passed,
+html body .md-sidebar--secondary .md-nav__item--passed > .md-nav__link,
+html body .md-nav--secondary .md-nav__link--passed,
+html body .md-nav--secondary .md-nav__item--passed > .md-nav__link,
+html body [data-md-component="toc"] .md-nav__link--passed,
+html body [data-md-component="toc"] .md-nav__item--passed > .md-nav__link {
   color: var(--archive-text) !important;
   font-weight: 400 !important;
   border-left-color: transparent !important;
@@ -428,13 +429,41 @@ body,
 }
 
 /* ---------------------------------------------------------
-   3. Left sidebar: current page only
+   3. Neutralize expanded/open parent items
+   Some Material builds mark ancestors with item-level active
+   classes. Ancestors should not look like the current heading.
 --------------------------------------------------------- */
 
-.md-sidebar--primary .md-nav__link--active,
-.md-sidebar--primary .md-nav__link[aria-current="page"],
-.md-sidebar--primary .md-nav__link[aria-current="true"],
-.md-sidebar--primary .md-nav__link[aria-current="location"] {
+html body .md-sidebar--secondary .md-nav__item--active > .md-nav__link:not(.md-nav__link--active):not([aria-current]),
+html body .md-nav--secondary .md-nav__item--active > .md-nav__link:not(.md-nav__link--active):not([aria-current]),
+html body [data-md-component="toc"] .md-nav__item--active > .md-nav__link:not(.md-nav__link--active):not([aria-current]) {
+  color: var(--archive-text) !important;
+  font-weight: 400 !important;
+  border-left-color: transparent !important;
+  background: transparent !important;
+}
+
+/* ---------------------------------------------------------
+   4. Strong active state: left current document + right current heading
+   This is placed after all neutralization rules.
+--------------------------------------------------------- */
+
+html body .md-sidebar--primary .md-nav__link--active,
+html body .md-sidebar--primary .md-nav__link[aria-current="page"],
+html body .md-sidebar--primary .md-nav__link[aria-current="true"],
+html body .md-sidebar--primary .md-nav__link[aria-current="location"],
+html body .md-sidebar--secondary .md-nav__link--active,
+html body .md-sidebar--secondary .md-nav__link[aria-current="page"],
+html body .md-sidebar--secondary .md-nav__link[aria-current="true"],
+html body .md-sidebar--secondary .md-nav__link[aria-current="location"],
+html body .md-nav--secondary .md-nav__link--active,
+html body .md-nav--secondary .md-nav__link[aria-current="page"],
+html body .md-nav--secondary .md-nav__link[aria-current="true"],
+html body .md-nav--secondary .md-nav__link[aria-current="location"],
+html body [data-md-component="toc"] .md-nav__link--active,
+html body [data-md-component="toc"] .md-nav__link[aria-current="page"],
+html body [data-md-component="toc"] .md-nav__link[aria-current="true"],
+html body [data-md-component="toc"] .md-nav__link[aria-current="location"] {
   color: var(--archive-active) !important;
   font-weight: 800 !important;
   border-left-color: var(--archive-active) !important;
@@ -442,47 +471,12 @@ body,
 }
 
 /* ---------------------------------------------------------
-   4. Right TOC: parent of the current heading only
-   This uses :has() so the parent section is weakly marked
-   only when it contains the current active child.
+   5. If a link is both passed and active, active wins
 --------------------------------------------------------- */
 
-.md-sidebar--secondary .md-nav__item:has(.md-nav__link--active) > .md-nav__link:not(.md-nav__link--active):not([aria-current]),
-.md-sidebar--secondary .md-nav__item:has(.md-nav__link[aria-current="page"]) > .md-nav__link:not(.md-nav__link--active):not([aria-current]),
-.md-sidebar--secondary .md-nav__item:has(.md-nav__link[aria-current="true"]) > .md-nav__link:not(.md-nav__link--active):not([aria-current]),
-.md-sidebar--secondary .md-nav__item:has(.md-nav__link[aria-current="location"]) > .md-nav__link:not(.md-nav__link--active):not([aria-current]),
-.md-nav--secondary .md-nav__item:has(.md-nav__link--active) > .md-nav__link:not(.md-nav__link--active):not([aria-current]),
-.md-nav--secondary .md-nav__item:has(.md-nav__link[aria-current="page"]) > .md-nav__link:not(.md-nav__link--active):not([aria-current]),
-.md-nav--secondary .md-nav__item:has(.md-nav__link[aria-current="true"]) > .md-nav__link:not(.md-nav__link--active):not([aria-current]),
-.md-nav--secondary .md-nav__item:has(.md-nav__link[aria-current="location"]) > .md-nav__link:not(.md-nav__link--active):not([aria-current]),
-[data-md-component="toc"] .md-nav__item:has(.md-nav__link--active) > .md-nav__link:not(.md-nav__link--active):not([aria-current]),
-[data-md-component="toc"] .md-nav__item:has(.md-nav__link[aria-current="page"]) > .md-nav__link:not(.md-nav__link--active):not([aria-current]),
-[data-md-component="toc"] .md-nav__item:has(.md-nav__link[aria-current="true"]) > .md-nav__link:not(.md-nav__link--active):not([aria-current]),
-[data-md-component="toc"] .md-nav__item:has(.md-nav__link[aria-current="location"]) > .md-nav__link:not(.md-nav__link--active):not([aria-current]) {
-  color: var(--archive-active) !important;
-  font-weight: 700 !important;
-  border-left-color: var(--archive-active) !important;
-  background: var(--archive-active-parent-bg) !important;
-}
-
-/* ---------------------------------------------------------
-   5. Right TOC: current heading only
-   Put this AFTER the passed reset and parent rule so the
-   actual current heading always wins.
---------------------------------------------------------- */
-
-.md-sidebar--secondary .md-nav__link--active,
-.md-sidebar--secondary .md-nav__link[aria-current="page"],
-.md-sidebar--secondary .md-nav__link[aria-current="true"],
-.md-sidebar--secondary .md-nav__link[aria-current="location"],
-.md-nav--secondary .md-nav__link--active,
-.md-nav--secondary .md-nav__link[aria-current="page"],
-.md-nav--secondary .md-nav__link[aria-current="true"],
-.md-nav--secondary .md-nav__link[aria-current="location"],
-[data-md-component="toc"] .md-nav__link--active,
-[data-md-component="toc"] .md-nav__link[aria-current="page"],
-[data-md-component="toc"] .md-nav__link[aria-current="true"],
-[data-md-component="toc"] .md-nav__link[aria-current="location"] {
+html body .md-sidebar--secondary .md-nav__link--passed.md-nav__link--active,
+html body .md-nav--secondary .md-nav__link--passed.md-nav__link--active,
+html body [data-md-component="toc"] .md-nav__link--passed.md-nav__link--active {
   color: var(--archive-active) !important;
   font-weight: 800 !important;
   border-left-color: var(--archive-active) !important;
@@ -493,27 +487,26 @@ body,
    6. Hover state
 --------------------------------------------------------- */
 
-.md-sidebar--primary .md-nav__link:hover,
-.md-sidebar--secondary .md-nav__link:hover,
-.md-nav--secondary .md-nav__link:hover,
-[data-md-component="toc"] .md-nav__link:hover {
+html body .md-sidebar .md-nav__link:hover,
+html body .md-nav--secondary .md-nav__link:hover,
+html body [data-md-component="toc"] .md-nav__link:hover {
   color: var(--archive-active) !important;
 }
 
 /* ---------------------------------------------------------
-   7. Scroll offset stability
+   7. Stable anchor offset
 --------------------------------------------------------- */
 
-.md-typeset h1,
-.md-typeset h2,
-.md-typeset h3,
-.md-typeset h4,
-.md-typeset h5,
-.md-typeset h6 {
+html body .md-typeset h1,
+html body .md-typeset h2,
+html body .md-typeset h3,
+html body .md-typeset h4,
+html body .md-typeset h5,
+html body .md-typeset h6 {
   scroll-margin-top: 6.5rem;
 }
 
-.md-sidebar--secondary .md-sidebar__scrollwrap,
-.md-nav--secondary .md-nav__list {
+html body .md-sidebar--secondary .md-sidebar__scrollwrap,
+html body .md-nav--secondary .md-nav__list {
   scroll-padding-top: 6.5rem;
 }
