@@ -52,6 +52,10 @@ hide:
 
 <div class="home-card-grid">
 
+<a href="https://4sighttt.github.io/ARCHIVE/000_Writings/07_Essay/%EC%99%95%EC%9D%84%20%EC%82%B0%20%EC%83%81%EC%9D%B8%3A%20%EC%97%AC%EB%B6%88%EC%9C%84%EC%99%80%20%EC%A0%84%ED%99%98%EA%B8%B0%EC%9D%98%20%EA%B6%8C%EB%A0%A5.html" class="home-card">
+  <div class="home-card-title">왕을 산 상인: 여불위와 전환기의 권력</div>
+</a>
+
 <a href="https://4sighttt.github.io/ARCHIVE/000_Writings/09_Poem/%ED%9D%B0%20%EA%B3%A0%EB%9E%98%20%EC%95%9E%EC%97%90%EC%84%9C.html" class="home-card">
   <div class="home-card-title">흰 고래 앞에서</div>
 </a>
