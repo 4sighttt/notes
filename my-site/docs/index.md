@@ -52,7 +52,7 @@ hide:
 
 <div class="home-card-grid">
 
-<a href="https://4sighttt.github.io/ARCHIVE/000_Writings/07_Poem/%ED%9D%B0%20%EA%B3%A0%EB%9E%98%20%EC%95%9E%EC%97%90%EC%84%9C/" class="home-card">
+<a href="https://4sighttt.github.io/ARCHIVE/000_Writings/09_Poem/%ED%9D%B0%20%EA%B3%A0%EB%9E%98%20%EC%95%9E%EC%97%90%EC%84%9C/" class="home-card">
   <div class="home-card-title">흰 고래 앞에서</div>
 </a>
 
