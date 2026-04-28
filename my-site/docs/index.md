@@ -52,6 +52,10 @@ hide:
 
 <div class="home-card-grid">
 
+<a href="https://4sighttt.github.io/ARCHIVE/000_Writings/07_Essay/%ED%83%80%EC%9D%B8%EC%9D%84%20%EC%9D%B4%ED%95%B4%ED%95%98%EB%8A%94%20%EA%B2%83%EC%9D%80%20%EA%B0%80%EB%8A%A5%ED%95%9C%EA%B0%80.html" class="home-card">
+  <div class="home-card-title">타인을 이해하는 것은 가능한가</div>
+</a>
+
 <a href="https://4sighttt.github.io/ARCHIVE/000_Writings/07_Essay/%EC%8B%9C%EA%B0%84%EC%9D%80%20%ED%9D%90%EB%A5%B4%EB%8A%94%EA%B0%80%2C%20%EC%9A%B0%EB%A6%AC%EA%B0%80%20%EA%B7%B8%EB%A0%87%EA%B2%8C%20%EC%9D%B8%EC%8B%9D%ED%95%98%EB%8A%94%EA%B0%80_Claude_Opus4.7_Adaptive_Thinking.html" class="home-card">
   <div class="home-card-title">시간은 흐르는가, 우리가 그렇게 인식하는가_Claude_Opus4.7_Adaptive_Thinking</div>
 </a>
