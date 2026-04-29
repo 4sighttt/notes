@@ -52,6 +52,10 @@ hide:
 
 <div class="home-card-grid">
 
+<a href="https://4sighttt.github.io/ARCHIVE/000_Writings/07_Essay/%EC%A2%85%EB%A3%8C%EB%A5%BC%20%EC%95%84%EB%8A%94%20%EC%A1%B4%EC%9E%AC%EC%9D%98%20%EC%84%A4%EB%AA%85%20%EC%9E%89%EC%97%AC_deepseek_v4_flash_thinking.html" class="home-card">
+  <div class="home-card-title">종료를 아는 존재의 설명 잉여_deepseek_v4_flash_thinking</div>
+</a>
+
 <a href="https://4sighttt.github.io/ARCHIVE/000_Writings/07_Essay/AI%EC%9D%98%20%EC%8B%9C%EC%84%A0%20%E2%80%94%20%ED%95%A9%EB%A6%AC%EC%A0%81%20%ED%96%89%EC%9C%84%EC%9E%90%20%EB%AA%A8%EB%8D%B8%EC%9D%98%20%ED%98%95%EC%84%B1%EA%B3%BC%20%ED%95%9C%EA%B3%84_Claude_Sonnet4.6.html" class="home-card">
   <div class="home-card-title">AI의 시선 — 합리적 행위자 모델의 형성과 한계_Claude_Sonnet4.6</div>
 </a>
