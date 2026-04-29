@@ -52,6 +52,10 @@ hide:
 
 <div class="home-card-grid">
 
+<a href="https://4sighttt.github.io/ARCHIVE/000_Writings/07_Essay/%EC%9D%B5%EC%88%99%ED%95%9C%20%ED%99%94%EB%A9%B4%2C%20%EC%84%A4%EB%AA%85%ED%95%A0%20%EC%88%98%20%EC%9E%88%EB%8A%94%20%EC%8B%9C%EB%AF%BC.html" class="home-card">
+  <div class="home-card-title">익숙한 화면, 설명할 수 있는 시민</div>
+</a>
+
 <a href="https://4sighttt.github.io/ARCHIVE/000_Writings/07_Essay/%EC%A7%80%EC%8B%9D%EC%9D%80%20%EC%84%B8%EA%B3%84%EB%A5%BC%20%EB%84%93%ED%9E%88%EB%8A%94%EA%B0%80%2C%20%EC%9E%90%EC%8B%A0%EC%9D%98%20%EA%B2%BD%EA%B3%84%EB%A5%BC%20%EB%B0%9C%EA%B2%AC%ED%95%98%EA%B2%8C%20%ED%95%98%EB%8A%94%EA%B0%80.html" class="home-card">
   <div class="home-card-title">지식은 세계를 넓히는가, 자신의 경계를 발견하게 하는가</div>
 </a>
