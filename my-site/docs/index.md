@@ -52,6 +52,10 @@ hide:
 
 <div class="home-card-grid">
 
+<a href="https://4sighttt.github.io/ARCHIVE/000_Writings/07_Essay/%EC%B0%BD%EC%9D%98%EC%A0%81%EC%9D%B8%20%EC%9D%B8%ED%94%84%EB%9D%BC%20%EA%B5%AC%EC%B6%95.html" class="home-card">
+  <div class="home-card-title">창의적인 인프라 구축</div>
+</a>
+
 <a href="https://4sighttt.github.io/ARCHIVE/000_Writings/07_Essay/%EC%A1%B4%EC%9E%AC%ED%95%98%EC%A7%80%20%EC%95%8A%EB%8A%94%20%ED%8C%A8%ED%84%B4%EC%9D%84%20%EB%B3%B4%EB%8A%94%20%EC%9D%B8%EA%B0%84.html" class="home-card">
   <div class="home-card-title">존재하지 않는 패턴을 보는 인간</div>
 </a>
