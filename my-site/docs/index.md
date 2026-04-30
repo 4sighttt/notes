@@ -6,18 +6,27 @@ hide:
 # Home
 
 <style>
+:root {
+  --home-card-bg: rgba(255,255,255,0.06);
+  --home-card-bg-hover: rgba(255,255,255,0.14);
+  --home-card-border: rgba(80, 60, 30, 0.12);
+  --home-card-border-hover: rgba(80, 60, 30, 0.24);
+}
+
 .home-card-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 14px;
   margin-top: 1.2rem;
 }
+
 .home-card {
   display: block;
   padding: 1.1rem 1.25rem;
-  border: 1px solid rgba(80, 60, 30, 0.12);
+  border: 1px solid var(--home-card-border) !important;
   border-radius: 0.28rem;
-  background: rgba(255,255,255,0.06);
+  background: var(--home-card-bg) !important;
+  background-color: var(--home-card-bg) !important;
   color: #4b5fe7 !important;
   font-size: 1.02rem;
   font-weight: 700;
@@ -26,17 +35,22 @@ hide:
   transition: background-color 0.15s ease, border-color 0.15s ease, transform 0.15s ease;
   min-height: 92px;
 }
+
 .home-card:hover {
-  background: rgba(255,255,255,0.14);
-  border-color: rgba(80, 60, 30, 0.24);
+  background: var(--home-card-bg-hover) !important;
+  background-color: var(--home-card-bg-hover) !important;
+  border-color: var(--home-card-border-hover) !important;
   transform: translateY(-1px);
 }
+
 .home-card:visited {
   color: #4b5fe7 !important;
 }
+
 @media screen and (max-width: 1100px) {
   .home-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
+
 @media screen and (max-width: 700px) {
   .home-card-grid { grid-template-columns: 1fr; }
 }
@@ -48,23 +62,26 @@ hide:
   line-height: 1.45;
 }
 
-
 .essay-section,
 .md-typeset details.essay-section,
 .md-typeset details.essay-section[open] {
   margin-top: 1.2rem;
   border: none !important;
   background: transparent !important;
+  background-color: transparent !important;
   box-shadow: none !important;
 }
 
 .essay-section > summary,
-.md-typeset details.essay-section > summary {
+.essay-section[open] > summary,
+.md-typeset details.essay-section > summary,
+.md-typeset details.essay-section[open] > summary {
   cursor: pointer;
   padding: 1rem 1.1rem;
-  border: 1px solid rgba(80, 60, 30, 0.12) !important;
+  border: 1px solid var(--home-card-border) !important;
   border-radius: 0.28rem !important;
-  background: rgba(255,255,255,0.06) !important;
+  background: var(--home-card-bg) !important;
+  background-color: var(--home-card-bg) !important;
   font-size: 1.05rem;
   font-weight: 800;
   color: var(--md-default-fg-color);
@@ -73,9 +90,12 @@ hide:
 }
 
 .essay-section > summary:hover,
-.md-typeset details.essay-section > summary:hover {
-  background: rgba(255,255,255,0.14) !important;
-  border-color: rgba(80, 60, 30, 0.24) !important;
+.essay-section[open] > summary:hover,
+.md-typeset details.essay-section > summary:hover,
+.md-typeset details.essay-section[open] > summary:hover {
+  background: var(--home-card-bg-hover) !important;
+  background-color: var(--home-card-bg-hover) !important;
+  border-color: var(--home-card-border-hover) !important;
   transform: translateY(-1px);
 }
 
@@ -106,10 +126,12 @@ hide:
   margin: 1rem 0 0 0 !important;
   padding: 0 !important;
   background: transparent !important;
+  background-color: transparent !important;
 }
 
 .md-typeset details.essay-section > *:not(summary) {
   background: transparent !important;
+  background-color: transparent !important;
 }
 
 .section-note {
