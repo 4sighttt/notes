@@ -219,7 +219,7 @@ hide:
 ## 주제별 글 목록
 
 <details class="essay-section">
-<summary>AI·기술·디지털 조건 (18)</summary>
+<summary>AI·기술·디지털 조건 (19)</summary>
 
 <div class="home-card-grid">
 
