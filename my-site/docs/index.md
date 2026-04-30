@@ -50,19 +50,26 @@ hide:
 
 
 .essay-section {
-  margin-top: 1.4rem;
-  border: 1px solid rgba(80, 60, 30, 0.14);
-  border-radius: 0.35rem;
-  background: rgba(255,255,255,0.035);
-  overflow: hidden;
+  margin-top: 1.2rem;
+  border: none;
+  background: transparent;
 }
 .essay-section > summary {
   cursor: pointer;
   padding: 1rem 1.1rem;
+  border: 1px solid rgba(80, 60, 30, 0.12);
+  border-radius: 0.28rem;
+  background: rgba(255,255,255,0.06);
   font-size: 1.05rem;
   font-weight: 800;
   color: var(--md-default-fg-color);
   list-style: none;
+  transition: background-color 0.15s ease, border-color 0.15s ease, transform 0.15s ease;
+}
+.essay-section > summary:hover {
+  background: rgba(255,255,255,0.14);
+  border-color: rgba(80, 60, 30, 0.24);
+  transform: translateY(-1px);
 }
 .essay-section > summary::-webkit-details-marker {
   display: none;
@@ -77,7 +84,7 @@ hide:
   transform: rotate(90deg);
 }
 .essay-section .home-card-grid {
-  margin: 0 1rem 1rem 1rem;
+  margin-top: 1rem;
 }
 .section-note {
   margin-top: 0.4rem;
@@ -87,7 +94,7 @@ hide:
 
 </style>
 
-## 최신 글
+## 선별 글
 
 <!-- 이 영역은 첫 화면에 노출할 글입니다. 기존처럼 수동으로 추가·삭제·순서 변경하면 됩니다. -->
 
@@ -144,6 +151,8 @@ hide:
 </div>
 
 ## 주제별 글 목록
+
+<div class="section-note">주제를 클릭하면 해당 분류의 글 목록이 펼쳐집니다.</div>
 
 <details class="essay-section">
 <summary>AI·기술·디지털 조건 (18)</summary>
