@@ -13,6 +13,16 @@ hide:
   --home-card-border-hover: rgba(80, 60, 30, 0.24);
 }
 
+[data-md-color-scheme="default"] {
+  --home-card-bg: rgba(80, 60, 30, 0.18);
+  --home-card-bg-hover: rgba(80, 60, 30, 0.24);
+}
+
+[data-md-color-scheme="slate"] {
+  --home-card-bg: rgba(255,255,255,0.06);
+  --home-card-bg-hover: rgba(255,255,255,0.14);
+}
+  
 .home-card-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
